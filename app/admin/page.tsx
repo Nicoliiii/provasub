@@ -1,10 +1,9 @@
-export default function Admin(){
+export default function Admin() {
     return (
-        <div>
-        <h1 className="text-center text-xl">Olá, seja bem vindo!</h1>
-        <a href="/admin/computer/new">Cadastrar Computadores</a>        
-        <a href="/admin/computer">Listar Computadores</a>
+        <div style={{ padding: '20px', backgroundColor: '#f8f9fa', fontFamily: 'Arial, sans-serif' }}>
+            <h1 className="text-center text-xl" style={{ color: '#343a40', marginBottom: '20px' }}>
+                Olá, seja bem vindo!
+            </h1>
         </div>
-        
     )
 }
